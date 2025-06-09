@@ -26,15 +26,7 @@ Este proyecto es una aplicación .NET llamada **Biblioteca**, desarrollada para 
    - Navega hasta la carpeta donde extrajiste el proyecto.
    - Selecciona el archivo con extensión `.sln` (por ejemplo, `Biblioteca.sln`) y haz clic en `Abrir`.
 
-3. **Restaurar paquetes**
-
-   - Visual Studio debería restaurar automáticamente los paquetes NuGet necesarios.
-   - Si no es así, en el menú selecciona `Herramientas` > `Administrador de paquetes NuGet` > `Consola del Administrador de paquetes` y ejecuta:
-     ```
-     dotnet restore
-     ```
-
-4. **Compilar y ejecutar**
+3. **Compilar y ejecutar**
 
    - Una vez abierto el proyecto, compílalo con `Ctrl + Shift + B` o desde el menú `Compilar` > `Compilar solución`.
    - Para ejecutar, presiona `F5` o haz clic en el botón `Iniciar depuración`.
@@ -43,9 +35,7 @@ Este proyecto es una aplicación .NET llamada **Biblioteca**, desarrollada para 
 
 ### Notas
 
-- Asegúrate de tener el SDK de .NET compatible con la versión del proyecto.
 - Puedes modificar el proyecto desde Visual Studio y agregar nuevas funcionalidades.
 
 ---
 
-Si tienes alguna duda, puedes abrir un issue en este repositorio.
